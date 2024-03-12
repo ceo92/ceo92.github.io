@@ -1,5 +1,14 @@
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
-
-안녕 첫 블로그야 과연 잘 생성이 될지 확인해보자고
+---
+title: 포스팅 제목
+date: YYYY-MM-DD HH:MM:SS +09:00
+categories: [메인 카테고리, 서브 카테고리]
+tags:
+  [
+    태그1,
+    태그2,
+    태그3,
+    .
+    .
+    .
+  ]
+---
