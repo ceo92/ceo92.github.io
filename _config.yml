@@ -32,12 +32,12 @@ description:           >
 #tagline:               Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
-keywords:              [1,2,3,4]
+keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-#logo:                  /assets/img/logo.png
+logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -50,7 +50,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Java
-    url:               /java/
+    url:               /example/
   - title:             Spring
     url:               /spring/
   - title:             About
