@@ -17,15 +17,16 @@
  
     <div>
         <h2 class="text_color"><b>JDBC</b></h2>
-        <ul>
+        
           
             <h4><b>JDBC 개념</b></h4>
+      			<ul>
           		
  		        	<li><b style="color:#006600">커넥션 생성 , SQL 요청 , 결과 응답 추상화</b> : JDBC 표준 인터페이스</li>
  		         	<li><b style="color:#006600">커넥션 생성 , SQL 요청 , 결과 응답 구현체</b> : H2 드라이버 , Oracle 드라이버 , MySQL 드라이버</li>
         		  	<li><b>★ 각 db와 호환되는 각 드라이버가 있기에 자바에서 DB로 연결이 가능한 것!</b></li>
           		
-          
+      			</ul>
 			<br><br>
 
            <h4><b>JDBC 결론</b></h4>
