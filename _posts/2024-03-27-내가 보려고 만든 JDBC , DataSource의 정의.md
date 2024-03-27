@@ -20,7 +20,7 @@
         <h2 class="text_color"><b>JDBC</b></h2>
         
           
-            <h4><b>JDBC 개념</b></h4>
+            <h3><b>JDBC 개념</b></h3>
       			<ul>
           		
  		        	<li><b style="color:#006600">커넥션 생성 , SQL 요청 , 결과 응답 추상화</b> : JDBC 표준 인터페이스</li>
@@ -45,7 +45,7 @@
 
     <div>
         
-        <h2 class="text_color"><b>DataSource</b></h2>
+        <h3 class="text_color"><b>DataSource</b></h3>
         
             <h4><b>DataSource 개념</b></h4>
           <ul>
@@ -70,7 +70,7 @@
   		
   
   <div>
-    <h2 class="text_color"><b>결론</b></h2>
+    <h3 class="text_color"><b>결론</b></h3>
 	    <ul>
     		<li>JDBC : 자바에서 DB와 <b style="color:red">1. 커넥션 생성</b> , <b style="color:blue">2. SQL 요청</b> , <b style="color:#006600">3. 결과 응답</b>하는 방법 추상화</li>
     		<li>DataSource : 자바에서 DB와 <b style="color:red">1. 커넥션 생성</b> 방법 추상화</li>
