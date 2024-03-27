@@ -6,6 +6,8 @@
              background: linear-gradient(120deg, rgba(255,0,0,1) 0%,  rgba(245,255,0,1) 33.3%,
              rgba(34,106,42,1) 66.6%, rgba(4,37,240,1) 100%);
         background-clip: text;
+           -webkit-background-clip: text;
+                color: transparent; 
               
                 }
     </style>
