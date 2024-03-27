@@ -20,15 +20,15 @@
         <ul>
           
             <h4><b>JDBC 개념</b></h4>
-          <span><b color="#006600">커넥션 생성 , SQL 요청 , 결과 응답 추상화</b> : JDBC 표준 인터페이스</span>
-          <span><b color="#006600">커넥션 생성 , SQL 요청 , 결과 응답 구현체</b> : H2 드라이버 , Oracle 드라이버 , MySQL 드라이버</span>
+          <span><b style="color:#006600">커넥션 생성 , SQL 요청 , 결과 응답 추상화</b> : JDBC 표준 인터페이스</span>
+          <span><b style="color:#006600">커넥션 생성 , SQL 요청 , 결과 응답 구현체</b> : H2 드라이버 , Oracle 드라이버 , MySQL 드라이버</span>
           <span><b>★ 각 db와 호환되는 각 드라이버가 있기에 자바에서 DB로 연결이 가능한 것!</b></span>
           
 			<br><br>
 
           	<h4><b>JDBC 결론</b></h4>
-                <span><b color="#006600">드라이버</b> : 자바에서 각 드라이버와 연결하는 방법을 정의(커넥션 생성 => SQL 전달 => 결과 응답)</span>
-          <span><b color="#006600">JDBC</b> : 자바에서 각 드라이버와 연결하는 방법을 추상화시켜놓음</span>
+                <span><b style="color:#006600">드라이버</b> : 자바에서 각 드라이버와 연결하는 방법을 정의(커넥션 생성 => SQL 전달 => 결과 응답)</span>
+          <span><b style="color:#006600">JDBC</b> : 자바에서 각 드라이버와 연결하는 방법을 추상화시켜놓음</span>
           <span>=> 구현체 유연하게 갈아끼우고 변경 가능하게</span>
             
         </ul>
@@ -42,8 +42,8 @@
         <h2 class="text_color"><b>DataSource</b></h2>
         <ul>
             <h4><b>DataSource 개념</b></h4>
-          <span><b color="#006600">커넥션 생성 추상화</b> : DataSource</span>
-          <span><b color="#006600">커넥션 생성 구현체</b> : 커넥션 풀 , DriverManager</span>
+          <span><b style="color:#006600">커넥션 생성 추상화</b> : DataSource</span>
+          <span><b style="color:#006600">커넥션 생성 구현체</b> : 커넥션 풀 , DriverManager</span>
           
          <br><br>
 
@@ -57,8 +57,8 @@
   
   <div>
     <h2 class="text_color"><b>결론</b></h2>
-    <span>JDBC : 자바에서 DB와 <b color="red">1. 커넥션 생성</b> , <b color="blue">2. SQL 요청</b> , <b color="#006600">3. 결과 응답</b>하는 방법 추상화</span>
-    <span>DataSource : 자바에서 DB와 <b color="red">1. 커넥션 생성</b> 방법 추상화</span>
+    <span>JDBC : 자바에서 DB와 <b style="color:red">1. 커넥션 생성</b> , <b style="color:blue">2. SQL 요청</b> , <b style="color:#006600">3. 결과 응답</b>하는 방법 추상화</span>
+    <span>DataSource : 자바에서 DB와 <b style="color:red">1. 커넥션 생성</b> 방법 추상화</span>
   	   
   </div>
 </div>
