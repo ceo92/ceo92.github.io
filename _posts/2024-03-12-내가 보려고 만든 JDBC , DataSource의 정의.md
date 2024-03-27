@@ -21,9 +21,9 @@
           
             <h4><b>JDBC 개념</b></h4>
           		
- 		        	<div><b style="color:#006600">커넥션 생성 , SQL 요청 , 결과 응답 추상화</b> : JDBC 표준 인터페이스</div>
- 		         	<div><b style="color:#006600">커넥션 생성 , SQL 요청 , 결과 응답 구현체</b> : H2 드라이버 , Oracle 드라이버 , MySQL 드라이버</div>
-        		  	<div><b>★ 각 db와 호환되는 각 드라이버가 있기에 자바에서 DB로 연결이 가능한 것!</b></div>
+ 		        	<p><b style="color:#006600">커넥션 생성 , SQL 요청 , 결과 응답 추상화</b> : JDBC 표준 인터페이스</p>
+ 		         	<p><b style="color:#006600">커넥션 생성 , SQL 요청 , 결과 응답 구현체</b> : H2 드라이버 , Oracle 드라이버 , MySQL 드라이버</p>
+        		  	<p><b>★ 각 db와 호환되는 각 드라이버가 있기에 자바에서 DB로 연결이 가능한 것!</b></p>
           		
           
 			<br><br>
