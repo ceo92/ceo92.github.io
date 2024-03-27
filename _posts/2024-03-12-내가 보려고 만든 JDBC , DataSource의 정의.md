@@ -30,13 +30,13 @@
 			<br><br>
 
            <h4><b>JDBC 결론</b></h4>
-          		<div>
-                	<span><b style="color:#006600">드라이버</b> : 자바에서 각 드라이버와 연결하는 방법을 정의(커넥션 생성 => SQL 전달 => 결과 응답)</span>
-                    <span><b style="color:#006600">JDBC</b> : 자바에서 각 드라이버와 연결하는 방법을 추상화시켜놓음</span>
+          		<ul>
+                	<li><b style="color:#006600">드라이버</b> : 자바에서 각 드라이버와 연결하는 방법을 정의(커넥션 생성 => SQL 전달 => 결과 응답)</li>
+                    <li><b style="color:#006600">JDBC</b> : 자바에서 각 드라이버와 연결하는 방법을 추상화시켜놓음</li>
 		          <span>=> 구현체 유연하게 갈아끼우고 변경 가능하게</span>
-          
+      			</ul>  
             <br><br>
-        </ul>
+        
 			
     </div>
 
@@ -45,7 +45,7 @@
     <div>
         
         <h2 class="text_color"><b>DataSource</b></h2>
-        <ul>
+        
             <h4><b>DataSource 개념</b></h4>
           <div>
 	          <span><b style="color:#006600">커넥션 생성 추상화</b> : DataSource</span>
@@ -54,14 +54,15 @@
          <br><br>
 
           	<h4><b>DataSource 결론</b></h4>
-	          <div>
-    	            <span>- JDBC에서 DB와 연결하는 3가지 방법 중 첫 단추인 “커넥션 생성”하는 방법이 여러 가지가 있으니 그들을 DataSource라는 인터페이스로 추상화해놨음</span> 
-        			<span>- 그에 다라 유연한 변경 가능</span>
-	          </div>
+      
+	          <ul>
+    	            <li>- JDBC에서 DB와 연결하는 3가지 방법 중 첫 단추인 “커넥션 생성”하는 방법이 여러 가지가 있으니 그들을 DataSource라는 인터페이스로 추상화해놨음</li> 
+        			<li>- 그에 다라 유연한 변경 가능</li>
+	          </ul>
           
           <br><br>
          
-        </ul>
+       
     </div>
   
   		 <hr>	
@@ -69,10 +70,10 @@
   
   <div>
     <h2 class="text_color"><b>결론</b></h2>
-	    <div>
-    		<span>JDBC : 자바에서 DB와 <b style="color:red">1. 커넥션 생성</b> , <b style="color:blue">2. SQL 요청</b> , <b style="color:#006600">3. 결과 응답</b>하는 방법 추상화</span>
-    		<span>DataSource : 자바에서 DB와 <b style="color:red">1. 커넥션 생성</b> 방법 추상화</span>
-    	</div>
+	    <ul>
+    		<li>JDBC : 자바에서 DB와 <b style="color:red">1. 커넥션 생성</b> , <b style="color:blue">2. SQL 요청</b> , <b style="color:#006600">3. 결과 응답</b>하는 방법 추상화</li>
+    		<li>DataSource : 자바에서 DB와 <b style="color:red">1. 커넥션 생성</b> 방법 추상화</li>
+    	</ul>
   </div>
 </div>
 
