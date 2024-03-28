@@ -52,7 +52,7 @@ menu:
   - title:             Java
     url:               /example/
   - title:             Spring
-    url:               /spring/
+    url:               /data/
   - title:             About
     url:               /about/
 
