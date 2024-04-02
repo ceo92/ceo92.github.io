@@ -74,6 +74,7 @@
 	    <ul>
     		<li>JDBC : 자바에서 DB와 <b style="color:red">1. 커넥션 생성</b> , <b style="color:blue">2. SQL 요청</b> , <b style="color:#006600">3. 결과 응답</b>하는 방법 추상화</li>
     		<li>DataSource : 자바에서 DB와 <b style="color:red">1. 커넥션 생성</b> 방법 추상화</li>
+          <li>JDBC는 해당 3가지 방법을 핵심 축으로 해서 db와 호환할 때 필요한 다양한 api들 추상화해놨음</li>
     	</ul>
   </div>
 </div>
